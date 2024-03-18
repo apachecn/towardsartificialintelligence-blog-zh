@@ -108,7 +108,7 @@ RUN pip install -e '.[dev,ocr,weaviate]'
 
 ```
  weaviate:
-    image: semitechnologies/weaviate:1.16.6
+    image: cr.weaviate.io/semitechnologies/weaviate:1.16.6
     ports:
       - 8080:8080
     environment:
